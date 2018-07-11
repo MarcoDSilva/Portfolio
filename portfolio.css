@@ -1,0 +1,191 @@
+body, html {
+	color:#2F3B12;
+	text-align: center;
+	background: #d5d5d5;
+	font-family: 'Open Sans', sans-serif;
+	height:100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+	width:100%;
+	top:0;
+	position:fixed;
+	height:55px;
+	border-radius: 2px;
+	background:#151F0A;
+}
+
+.nav_list {
+	list-style: none;	
+	padding:20px 20px;
+	display:flex;
+	justify-content: flex-end;
+}
+
+.nav_list li a {
+	color:#D8DCA9;
+	text-decoration: none;
+	padding:10px;
+}
+
+.nav_list li a:hover {
+	transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	color:white;
+}
+
+
+#welcome-section{
+	color: white;
+	min-height:100vh;
+	margin:0 auto;
+	background:#2A2E39;
+	/*background: url(https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-0.3.5&s=4090a854df9cf3c0ae58e554fbce12df&auto=format&fit=crop&w=1934&q=80);
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+
+.presentation{
+	padding-top:15vh;
+}
+
+.aboutMe{
+	font-size:17px;
+	padding-top:2vh;
+	width:65%;
+	margin:0 auto;
+	border-radius: 6px;
+}
+
+.profile_pic {
+	padding-top:2vh;
+	max-width:220px;
+	height: auto;
+}
+
+.project-container{
+	flex-wrap:wrap;
+	padding-top:2em;
+}
+
+
+@media (min-width: 900px) {
+	.project-container{
+		display:flex;
+		justify-content: center;
+	}
+
+	.project-tile{
+	width:23%;
+	}
+
+}
+
+.project-tile{
+	padding:1vh 0vw;
+}
+
+.projects{
+	background:#1C8CA4;
+	color:white;
+	padding: 1.4em 0em;
+}
+
+.responsive-img{
+	width:auto;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.responsive-img:hover{
+	transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	opacity: 0.8;
+}
+
+.contacts{
+	padding:1.3vh 0vw;
+	background-color: #2A2E39;
+	color:white;
+}
+
+.links{
+	padding:1.3vh 0vw;
+}
+
+.links a:hover{
+	opacity: 0.5;
+}
+
+.links ul li{
+	list-style-type: none;
+	display: inline;
+}
+
+
+#profile-link{
+	padding:10px 10px;
+}
+
+.imgs {
+	width:50px;
+	height:50px;
+}
+
+footer {
+	background: #151F0A;
+	color:#D8DCA9;
+	margin:0 auto;
+	padding: 1.5vh 0vw;
+}
+
+.fcc{
+	text-decoration: none;
+	color:white;
+}
+
+h1, h2{
+	font-size:22px;
+}
+
+.skills {
+	color:lightblue;
+	font-size: 13px;
+	font-style: italic;
+}
+
+.line {
+	display: block;
+	height: 1px;
+	background-color: #D8DCA9;
+	content: "";
+	width:200px;
+	margin: 0 auto 2px auto;
+	margin-top:0.5vh;
+	margin-bottom:10px;
+}
+
+.linish {
+	display: block;
+	height: 1px;
+	background-color: #D8DCA9;
+	content: "";
+	width:240px;
+	margin: 0 auto;
+	margin-top:0.5vh;
+}
+
+.lineContact {
+	display: block;
+	height: 1px;
+	background-color:#1C8CA4;
+	content: "";
+	width:240px;
+	margin: 0 auto 2px auto;
+	margin-top:0.5vh;
+}
